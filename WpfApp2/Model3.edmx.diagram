@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="70d60e184efa435b8240ec6dca74d7e1" Name="Diagram1">
+        <EntityTypeShape EntityType="apteka1Model.Dogovor" Width="1.5" PointX="0.75" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="apteka1Model.Istoria" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="apteka1Model.Kategoria" Width="1.5" PointX="0.75" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="apteka1Model.Klient" Width="1.5" PointX="0.75" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="apteka1Model.Material" Width="1.5" PointX="3" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="apteka1Model.Mesta_Hranenia" Width="1.5" PointX="0.75" PointY="18" IsExpanded="true" />
+        <EntityTypeShape EntityType="apteka1Model.Postavcik" Width="1.5" PointX="3.75" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="apteka1Model.Preparat" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="apteka1Model.Shet" Width="1.5" PointX="3" PointY="16.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="apteka1Model.Sotrudnic" Width="1.5" PointX="0.75" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="apteka1Model.sysdiagrams" Width="1.5" PointX="8.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="apteka1Model.Zakaz" Width="1.5" PointX="6" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="apteka1Model.Zakazanie_Preparat" Width="1.5" PointX="8.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="apteka1Model.Zapis" Width="1.5" PointX="3" PointY="1.75" IsExpanded="true" />
+        <AssociationConnector Association="apteka1Model.FK_Shet_Dogovor" ManuallyRouted="false" />
+        <AssociationConnector Association="apteka1Model.FK_Zapis_Dogovor" ManuallyRouted="false" />
+        <AssociationConnector Association="apteka1Model.FK_Istoria_Klient" ManuallyRouted="false" />
+        <AssociationConnector Association="apteka1Model.FK_Istoria_Zakaz" ManuallyRouted="false" />
+        <AssociationConnector Association="apteka1Model.FK_Material_Kategoria" ManuallyRouted="false" />
+        <AssociationConnector Association="apteka1Model.FK_Zakaz_Klient" ManuallyRouted="false" />
+        <AssociationConnector Association="apteka1Model.FK_Zapis_Klient" ManuallyRouted="false" />
+        <AssociationConnector Association="apteka1Model.FK_Material_Mesta_Hranenia" ManuallyRouted="false" />
+        <AssociationConnector Association="apteka1Model.FK_Material_Sotrudnic" ManuallyRouted="false" />
+        <AssociationConnector Association="apteka1Model.FK_Zakaz_Postavcik" ManuallyRouted="false" />
+        <AssociationConnector Association="apteka1Model.FK_Zakazanie_Preparat_Preparat" ManuallyRouted="false" />
+        <AssociationConnector Association="apteka1Model.FK_Zapis_Sotrudnic" ManuallyRouted="false" />
+        <AssociationConnector Association="apteka1Model.FK_Zakazanie_Preparat_Zakaz" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
